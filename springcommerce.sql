@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 01, 2023 lúc 12:28 PM
+-- Thời gian đã tạo: Th12 01, 2023 lúc 03:26 PM
 -- Phiên bản máy phục vụ: 10.4.27-MariaDB
 -- Phiên bản PHP: 8.2.0
 
@@ -38,11 +38,7 @@ CREATE TABLE `carts` (
 --
 
 INSERT INTO `carts` (`id`, `quantity`, `product_id`) VALUES
-(15, 3, 1),
-(16, 2, 7),
-(18, 2, 6),
-(21, 1, 2),
-(22, 3, 4);
+(1, 3, 1);
 
 -- --------------------------------------------------------
 
